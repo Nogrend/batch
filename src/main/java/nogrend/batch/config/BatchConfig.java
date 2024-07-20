@@ -1,2 +1,7 @@
-package nogrend.batch.config.BatchConfig;public class BatchConfig {
+package nogrend.batch.config;
+
+//@Configuration
+public class BatchConfig {
+
 }
+

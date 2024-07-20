@@ -1,1 +1,9 @@
 
+### create job
+POST localhost:8080/create/job
+Content-Type: application/json
+
+{
+  "name": "create simple job",
+  "createdAt": "2024-07-20T13:35:31.726839+02:00"
+}

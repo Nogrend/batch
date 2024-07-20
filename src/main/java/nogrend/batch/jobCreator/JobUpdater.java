@@ -1,2 +1,6 @@
-package nogrend.batch.jobCreator;public record JobUpdater() {
+package nogrend.batch.jobCreator;
+
+public record JobUpdater(
+        int retryCounter
+) {
 }

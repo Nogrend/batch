@@ -1,1 +1,10 @@
-spring.application.name=Spring Batch
+spring:
+  application:
+    name: Spring Batch
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: user
+    password: user
+
+cors:
+  allowedOrigins: localhost
